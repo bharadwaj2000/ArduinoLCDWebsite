@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: lightblue;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border:1px solid lightcoral;
+    width: 60%;
+    height: 60vh;
+    align-items: center;
+}
+#input{
+    border: 1px solid lightcoral;
+}
+
+.radio{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: lightcoral;
+    border:lightsalmon;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
+    color:lightcoral;
+    border:1px solid lightcoral;
+}

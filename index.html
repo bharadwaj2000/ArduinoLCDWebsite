@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCD</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LED Controller</h1>
+        <input type="text" id = "input" maxlength="32">
+        <button id = "button" onclick="sendMessage()">Submit</button>
+        <div class="radio">
+            <p>
+                OFF : <input type="radio" name="led" id="off" checked onchange="led('off')">    
+            </p>
+            <p>
+                ON  : <input type="radio" name="led" id="on" onchange="led('on')">    
+            </p>
+        </div>
+    </div>
+</body>
+
+<script src="/App.js"></script>
+</html>
